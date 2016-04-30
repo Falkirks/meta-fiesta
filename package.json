@@ -18,6 +18,8 @@
     "sandbox"
   ],
   "dependencies": {
+    "async": "^2.0.0-rc.3",
+    "grunt": "^1.0.1",
     "sandcastle": "^1.3.3"
   },
   "devDependencies": {
