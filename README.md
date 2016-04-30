@@ -26,7 +26,7 @@ var test = 1;
 
 metaFiesta(objects, test, function(err, list){
     console.log(list);
-    //  { logic: "exports.main = function() {exit(test === 1);}", otherStuff: "yoyo" }
+    //  [{ logic: "exports.main = function() {exit(test === 1);}", otherStuff: "yoyo" }]
 });
 ```
 
