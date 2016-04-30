@@ -4,7 +4,7 @@
 
 This library is an application component for a closed-source project. It takes a list of objects with a "logic" property and a single test object. Each "logic" property will be executed in sandboxed JS and passed the test object. The objects containing a "logic" that returned truthy will be passed in an arrray to a callback function.
 
-Probably not that helpful to you?
+Probably not that helpful to you...
 
 ## Install
 
