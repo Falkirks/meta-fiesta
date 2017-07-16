@@ -2,7 +2,7 @@
 
 > Meta-logic for user awards (so oddly specific)
 
-This library is an application component for a closed-source project. It takes a list of objects with a "logic" property and a single test object. Each "logic" property will be executed in sandboxed JS and passed the test object. The objects containing a "logic" that returned truthy will be passed in an arrray to a callback function.
+This library is an application component for a closed-source project. It takes a list of objects with a "logic" property and a single test object. Each "logic" property will be executed in ~~sandboxed~~ [**not actually sandboxed**][sandbox-issue-url] JS and passed the test object. The objects containing a "logic" that returned truthy will be passed in an arrray to a callback function.
 
 Probably not that helpful to you...
 
@@ -42,3 +42,4 @@ MIT © [Falkirks](http://falkirks.com)
 [travis-url]: https://travis-ci.org/Falkirks/meta-fiesta
 [daviddm-image]: https://david-dm.org/Falkirks/meta-fiesta.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/Falkirks/meta-fiesta
+[sandbox-issue-url]: https://github.com/bcoe/sandcastle/issues/70
